@@ -1,16 +1,19 @@
 /*
-Theme Name: OpenLab
-Theme URL: http://openlab.early-adopter.com
-Description: OpenLab Bootstrap based theme
-Author: CityTech OpenLab Dev Team
-Author URI:http://openlab.early-adopter.com
+Theme Name: DHRI OpenLab
+Theme URL: http://www.dhinstitutes.org/dev
+Description: Digital Humanities Research Institute's OpenLab Bootstrap based-theme based on CityTech' OpenLab theme
+Author: Kalle Westerling
+Author URI: http://www.westerling.nu/
 Version: 0.1
 Text Domain: openlab
 */
 
-/**import bootstrap**/
+
+// import bootstrap
 @import "less/bootstrap/bootstrap.less";
-/**import boostrap overrides**/
+
+
+// import boostrap overrides
 @import "less/variables.less";
 
 @primaryColor: #c42e10;
@@ -26,6 +29,7 @@ Text Domain: openlab
 @navLinkBackgroundColor: #fff;
 @navLinkTextColor: #fff;
 
+
 // Headings
 // -------------------------
 h1, .h1{
@@ -40,12 +44,14 @@ h6, .h6 {
     margin: @header-margin;
 }
 
+
 // Body text
 // -------------------------
 
 p {
     margin: 0 0 15px;
 }
+
 
 // Links
 
@@ -69,6 +75,7 @@ a {
     }
 }
 
+
 // Lists
 // -------------------------
 
@@ -86,6 +93,7 @@ ol {
         }
     }
 }
+
 
 // Misc
 // -------------------------
@@ -111,6 +119,7 @@ blockquote {
         margin-top: 0;
     }
 }
+
 
 // Base class
 // --------------------------------------------------
@@ -187,7 +196,8 @@ blockquote {
         }
     }
 }
-//
+
+
 // Pagination (multiple pages)
 // --------------------------------------------------
 .pagination {
@@ -223,7 +233,8 @@ blockquote {
     }
 }
 
-/**structural**/
+
+// Structural edits to Bootstrap
 .container-fluid{
     max-width: 1155px;
 }
@@ -426,7 +437,8 @@ input[type="submit"]{
     border-radius: 2px;
     padding: 8px 16px;
 }
-/**header**/
+
+// Header
 .navbar-default{
     background: transparent;
     border: none;
@@ -499,7 +511,8 @@ input[type="submit"]{
         margin-top: 1px;
     }
 }
-/**page**/
+
+// Page
 .entry-title{
     border-bottom: 1px solid @30gray;
 	height: 50px;
